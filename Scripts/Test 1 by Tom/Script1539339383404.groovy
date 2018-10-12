@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://stopspam.1551.gov.ua/')
+WebUI.navigateToUrl('http://192.168.123.25')
 
 WebUI.click(findTestObject('Object Repository/Page_STOP SPAM/button_ (1)'))
 
