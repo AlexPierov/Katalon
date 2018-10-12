@@ -19,7 +19,7 @@ WebUI.navigateToUrl('https://stopspam.1551.gov.ua/')
 
 WebUI.click(findTestObject('Object Repository/Page_STOP SPAM/button_'))
 
-WebUI.setText(findTestObject('Object Repository/Page_STOP SPAM/input_person_mat-input-0'), 'igor@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_STOP SPAM/input_person_mat-input-0'), 'i1gor@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_STOP SPAM/input_https_mat-input-1'), 'NOZHw6sL/1I=')
 
