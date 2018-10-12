@@ -17,11 +17,29 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://stopspam.1551.gov.ua/')
 
-WebUI.click(findTestObject('Object Repository/Page_STOP SPAM/button_'))
+WebUI.click(findTestObject('Object Repository/Page_STOP SPAM/button_ (1)'))
 
 WebUI.setText(findTestObject('Object Repository/Page_STOP SPAM/input_person_mat-input-0'), 'igor@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_STOP SPAM/input_https_mat-input-1'), 'NOZHw6sL/1I=')
 
-WebUI.click(findTestObject('Object Repository/Page_STOP SPAM/button_'))
+WebUI.click(findTestObject('Object Repository/Page_STOP SPAM/button_ (1)'))
+
+WebUI.click(findTestObject('Object Repository/Page_STOP SPAM/a_'))
+
+WebUI.click(findTestObject('Object Repository/Page_STOP SPAM/button_add'))
+
+WebUI.click(findTestObject('Object Repository/Page_STOP SPAM/div_'))
+
+WebUI.setText(findTestObject('Object Repository/Page_STOP SPAM/input_ _mat-input-10'), 'a')
+
+WebUI.click(findTestObject('Object Repository/Page_STOP SPAM/div_ (1)'))
+
+WebUI.click(findTestObject('Object Repository/Page_STOP SPAM/span_ (1)'))
+
+WebUI.click(findTestObject('Object Repository/Page_STOP SPAM/div_'))
+
+WebUI.setText(findTestObject('Object Repository/Page_STOP SPAM/textarea__mat-input-11'), 'sadf')
+
+WebUI.click(findTestObject('Page_STOP SPAM/button__2'))
 
