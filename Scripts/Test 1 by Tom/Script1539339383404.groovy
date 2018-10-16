@@ -31,7 +31,7 @@ WebUI.click(findTestObject('Object Repository/Page_STOP SPAM/button_add'))
 
 WebUI.click(findTestObject('Object Repository/Page_STOP SPAM/div_'))
 
-WebUI.setText(findTestObject('Object Repository/Page_STOP SPAM/input_ _mat-input-10'), 'КПИ')
+WebUI.setText(findTestObject('Page_STOP SPAM/input_ _mat-input-7'), 'КПИ')
 
 WebUI.click(findTestObject('Object Repository/Page_STOP SPAM/div_ (1)'))
 
